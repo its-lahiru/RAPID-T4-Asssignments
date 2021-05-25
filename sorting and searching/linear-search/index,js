@@ -1,0 +1,11 @@
+const linearSearch = (list, item) => {
+  for (let element of list) {
+    if (element === item) {
+      return list.indexOf(element);
+    }
+  }
+}
+
+const i = linearSearch(['a', 'b', 'c', 'd'], 'a');
+
+console.log(i);
